@@ -1,0 +1,26 @@
+.titulo{
+    background-color: rgb(103, 103, 173);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+}
+
+.subtitulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(158, 99, 212);
+    font-size: 200%;
+}
+
+.titulo-2{
+    color: rgb(8, 7, 8);
+    background-color: rgb(97, 97, 194);
+    font-size: 200%;
+}
+
+.texto-1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(118, 118, 235);
+    font-size: 150%;
+}
