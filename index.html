@@ -15,7 +15,7 @@
 
     <h1 class="titulo-2">Design:</h1>
     <p class="texto-1"> O novo design aerodinâmico e robusto da nova LANDER CONNECTED
-        a tornam mai única. A qualidade na escolha dos materiais
+        a tornam mais única. A qualidade na escolha dos materiais
         das nova carenagens do farol e tanque, proporcionam maior riqueza
         nos detalhe e acabamento suoerior. Onovo farol com projetor de LED 
         bifuncional, com tecnologia exclusiva da Yamaha para o segmento e o DRL 
@@ -25,7 +25,42 @@
         para uma condução mai tranquila e confortável em qualquer situação. O novo
         comando com gatilho do farol anto oferece ainda mais conforto e conveniencia para o piloto. 
     </p>
+<div class="container">
+    
+    <img src="yamaha_lander_2025_1_02112024_61643_960_720 (1).jpg" alt=""><h1 class="titulo-2">conforto:</h1>
 
-    <img src="yamaha_lander_2025_1_02112024_61643_960_720 (1).jpg" alt="">
+    
+      </div>
+     <p class="texto-2"> 
+
+        Desfrute de uma pilotagem excepcional com o assento amplo e macio em dois níveis da LANDER CONNECTED,
+         que proporciona conforto superior tanto para o piloto quanto para o garupa. O guidão alto, aliado ao posicionamento das pedaleiras, 
+         garante uma condução relaxada e prazerosa, permitindo que você enfrente qualquer terreno com confiança. A Yamaha Lander 250 oferece uma velocidade de
+          cruzeiro confortável na faixa de 90 km/h a 110 km/h, enquanto sua velocidade máxima (top speed) fica entre 130 km/h e 145 km/h, dependendo das condições
+           da estrada e do peso.
+ 
+    </p>
+</div>
+
+    <button>❤️​<span>0</span></button>
+    <button>👍​<span>0</span></button>
+    <script>
+        const botoes = document.querySelectorAll("button");
+        botoes.forEach(function(botao){
+            let curtiu = false;
+            botao.addEventListener("click",botaoClicado);
+            function botaoClicado(){
+                console.log("fui clicado");
+                let texto = botao.querySelector("span");
+                if(curtiu === false){
+                    texto.textContent++;
+                    curtiu = true;
+                } else {
+                    texto.textContent--;
+                    curtiu = false;
+                }
+            }
+        })
+    </script>
 </body>
 </html>

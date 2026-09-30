@@ -1,5 +1,5 @@
 .titulo{
-    background-color: rgb(103, 103, 173);
+    background-color: rgb(240, 240, 240);
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 300%;
@@ -8,19 +8,40 @@
 .subtitulo{
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(158, 99, 212);
+    background-color: rgb(255, 255, 255);
     font-size: 200%;
 }
 
 .titulo-2{
-    color: rgb(8, 7, 8);
-    background-color: rgb(97, 97, 194);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     font-size: 200%;
+    text-align: center ;
 }
 
 .texto-1{
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(118, 118, 235);
-    font-size: 150%;
+    background-color: rgb(255, 255, 255);;
+    font-size: 110%;
 }
+.texto-2{
+    color: rgb(0, 0, 0);
+text-align: center;
+background-color: rgb(255, 255, 255);
+font-size: 110%;
+}
+img{
+    width: 700px;
+    height: 300px;
+}
+
+.container {
+    display: flex;          /* Coloca os itens lado a lado */
+    align-items: center;    /* Alinha o texto e a foto no centro verticalmente */
+    gap: 15px;              /* Cria um espaço de 15 pixels entre a foto e o texto */
+  }
+  
+  .container img {
+    width: 150px;           /* Define a largura da foto (opcional) */
+  }
