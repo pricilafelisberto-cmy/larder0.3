@@ -1,5 +1,5 @@
 .titulo{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(241, 241, 241);
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 300%;
@@ -32,16 +32,7 @@ background-color: rgb(255, 255, 255);
 font-size: 110%;
 }
 img{
-    width: 700px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
 }
-
-.container {
-    display: flex;          /* Coloca os itens lado a lado */
-    align-items: center;    /* Alinha o texto e a foto no centro verticalmente */
-    gap: 15px;              /* Cria um espaço de 15 pixels entre a foto e o texto */
-  }
-  
-  .container img {
-    width: 150px;           /* Define a largura da foto (opcional) */
-  }
+ 
